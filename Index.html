@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Model Profile</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0d0d0d;
+    color:white;
+}
+
+.hero{
+    width:100%;
+    min-height:100vh;
+    background:linear-gradient(135deg,#1a001f,#140020,#000);
+}
+
+.profile-card{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.top{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:40px;
+}
+
+.profile-img{
+    width:280px;
+    height:280px;
+    border-radius:50%;
+    overflow:hidden;
+    border:4px solid #ff0055;
+    box-shadow:0 0 50px rgba(255,0,85,.6);
+}
+
+.profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.info{
+    flex:1;
+}
+
+.info h1{
+    font-size:3rem;
+    background:linear-gradient(90deg,#ff0055,#8a2be2);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.info p{
+    margin-top:10px;
+    color:#cfcfcf;
+    line-height:1.8;
+}
+
+.stats{
+    display:flex;
+    gap:30px;
+    margin-top:25px;
+}
+
+.stat{
+    text-align:center;
+}
+
+.stat h2{
+    color:#ff0055;
+}
+
+.follow-btn{
+    margin-top:30px;
+    padding:14px 35px;
+    border:none;
+    border-radius:40px;
+    background:linear-gradient(90deg,#ff0055,#8a2be2);
+    color:white;
+    cursor:pointer;
+    font-size:1rem;
+    font-weight:600;
+}
+
+.gallery{
+    margin-top:70px;
+}
+
+.gallery h2{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:2rem;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.post{
+    overflow:hidden;
+    border-radius:20px;
+    background:#111;
+    transition:.4s;
+}
+
+.post:hover{
+    transform:translateY(-8px);
+}
+
+.post img{
+    width:100%;
+    height:380px;
+    object-fit:cover;
+    display:block;
+}
+
+.footer{
+    text-align:center;
+    padding:40px 20px;
+    color:#aaa;
+}
+
+@media(max-width:768px){
+    .top{
+        justify-content:center;
+        text-align:center;
+    }
+
+    .info h1{
+        font-size:2.2rem;
+    }
+
+    .stats{
+        justify-content:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+<div class="profile-card">
+
+<div class="top">
+
+<div class="profile-img">
+<img src="https://raw.githubusercontent.com/mdimrankhanalpha/Amyra-Dastur/main/1780348521719.jpg">
+</div>
+
+<div class="info">
+<h1>Professional Model</h1>
+
+<p>
+Fashion Model • Brand Ambassador • Lifestyle Influencer
+Creating elegant visuals, premium fashion content, and luxury lifestyle experiences.
+</p>
+
+<div class="stats">
+<div class="stat">
+<h2>1.2M</h2>
+<span>Followers</span>
+</div>
+
+<div class="stat">
+<h2>850+</h2>
+<span>Photos</span>
+</div>
+
+<div class="stat">
+<h2>120</h2>
+<span>Campaigns</span>
+</div>
+</div>
+
+<button class="follow-btn">Follow Profile</button>
+</div>
+
+</div>
+
+<div class="gallery">
+
+<h2>Latest Posts</h2>
+
+<div class="grid">
+
+<div class="post">
+<img src="1780348526928.jpg">
+</div>
+
+<div class="post">
+<img src="1780348541634.jpg">
+</div>
+
+<div class="post">
+<img src="1780348539896.jpg">
+</div>
+
+<div class="post">
+<img src="1780348537985.jpg">
+</div>
+
+<div class="post">
+<img src="1780348535086.jpg">
+</div>
+
+<div class="post">
+<img src="1780348530966.jpg">
+</div>
+
+<div class="post">
+<img src="1780348533018.jpg">
+</div>
+
+<div class="post">
+<img src="1780348529119.jpg">
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="footer">
+© 2026 Professional Model Portfolio
+</div>
+
+</body>
+</html>
